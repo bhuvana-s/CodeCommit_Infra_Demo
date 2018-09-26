@@ -1,0 +1,12 @@
+{
+  "Parameters" : {
+    "MachineImage" : "ami-04681a1dbd79675a5",
+    "InstanceType" : "t2.micro",
+    "KeyName" : "YourKeyName",
+    "SubnetId" : "subnet-08cf5f52",    
+    "SecurityGroups" : "sg-04744eae360da43e1",
+    "InstanceProfile" : "Codedeploy-EC2-S3",
+    "TagKey" : "Name",
+    "TagValue" : "codedeploy_demo_EC2"
+  }
+}
